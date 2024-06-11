@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laba 3</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body" id="body">
+    <a href="index.html">Завдання 1</a>
+    <a href="index2.html">Завдання 2</a>
+    <a href="index3.html">Завдання 3</a>
+    <div class="login-form">
+        <div class="input-line">
+            <input class="input" type="text" placeholder="First name..." id="firstName" autocomplete="off">
+            <img src="images/warning.png" alt="" id="firstNameError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Last name..." id="lastName" autocomplete="off">
+            <img src="images/warning.png" alt="" id="lastNameError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="email" placeholder="E-mail..." id="email" autocomplete="off">
+            <img src="images/warning.png" alt="" id="emailError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Country.." id="country" autocomplete="off">
+            <img src="images/warning.png" alt="" id="countryError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="City..." id="city" autocomplete="off">
+            <img src="images/warning.png" alt="" id="cityError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Address..." id="address" autocomplete="off">
+            <img src="images/warning.png" alt="" id="addressError">
+        </div>
+        <div class="input-line">
+            <input class="input" type="text" placeholder="Post index..." id="postIndex" autocomplete="off">
+            <img src="images/warning.png" alt="" id="postIndexError">
+        </div>
+
+        <button class="button" onclick="checkData()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
